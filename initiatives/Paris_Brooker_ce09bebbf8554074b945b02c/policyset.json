@@ -1,0 +1,31 @@
+{
+ "properties": {
+  "displayName": "Paris Brooker",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "873ded7f-558a-40b3-9127-6fe3ec8a7c2e",
+   "createdOn": "2022-03-27T20:10:32.2805977Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "SQL Audit On_1",
+    "policyDefinitionId": "/subscriptions/d00d7ad8-403c-45b8-a8b3-d863ff0bb967/providers/Microsoft.Authorization/policyDefinitions/170b3815-44fd-4492-94db-78c3c25d515a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SQL_min_tls_1",
+    "policyDefinitionId": "/subscriptions/d00d7ad8-403c-45b8-a8b3-d863ff0bb967/providers/Microsoft.Authorization/policyDefinitions/9cb68529-1971-4cd2-85ac-dc290dea50d2",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/d00d7ad8-403c-45b8-a8b3-d863ff0bb967/providers/Microsoft.Authorization/policySetDefinitions/ce09bebbf8554074b945b02c",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "ce09bebbf8554074b945b02c"
+}
